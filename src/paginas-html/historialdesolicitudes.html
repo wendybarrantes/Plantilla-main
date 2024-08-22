@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial de solicitudes</title>
+
+      <!-- Fuentes personalizadas para esta plantilla-->
+      <link rel="stylesheet" type="text/css" href="/src/extras/fontawesome-free/css/all.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+    <link rel="stylesheet" href="/src/estilos/sb-admin-2.min.css">
+    <link rel="stylesheet" href="/src/estilos/historialdesolicitudes.css">
+</head>
+<body>
+
+    
+
+<!-- Barra lateral -->
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+    <!-- Barra lateral - Marca -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/src/paginas-html/index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+            <i class="fas fa-laugh-wink"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Permisos PC<sup> FWD</sup></div>
+    </a>
+    <!-- Separador -->
+    <hr class="sidebar-divider my-0">
+
+    <!-- Elemento de navegación - Panel de control -->
+    <li class="nav-item active">
+        <a class="nav-link" href="/src/paginas-html/index.html">
+            <i class="fas fa-house-user"></i>
+            <span>Inicio</span></a>
+    </li>
+
+    <!-- Separador -->
+    <hr class="sidebar-divider">
+
+    <!-- Encabezado -->
+    <div class="sidebar-heading">
+        Interfaz
+    </div>
+
+    <!-- Separador -->
+    <hr class="sidebar-divider">
+
+    <!-- Encabezado -->
+    <div class="sidebar-heading">
+        Complementos
+    </div>
+
+    <!-- Elemento de navegación - Menú de contracción de páginas -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages"
+            aria-expanded="false" aria-controls="collapsePages">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Páginas</span>
+        </a>
+        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-bs-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Inicio de sesión:</h6>
+                <a class="collapse-item" href="/src/paginas-html/login.html">Login</a>
+                <a class="collapse-item" href="/src/paginas-html/register.html">Register</a>
+                <div class="collapse-divider"></div>
+            </div>
+        </div>
+    </li>
+
+    <!-- Elemento de navegación - Tablas -->
+
+    <!-- Separador -->
+    <hr class="sidebar-divider d-none d-md-block">
+
+</ul>
+
+
+<!-- Contenido principal -->
+<div class="tablero" id="content">
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Historial de solicitudes</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Código de PC</th>
+                            <th>Fecha de salida</th>
+                            <th>Fecha de regreso</th>
+                            <th>Sede</th>
+                        
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Garrett Winters</td>
+                            <td>Accountant</td>
+                            <td>Tokyo</td>
+                            <td>63</td>
+                            <td>2011/07/25</td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- fin de contenido principal -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
