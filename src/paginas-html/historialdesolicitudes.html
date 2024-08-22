@@ -15,68 +15,50 @@
 <body>
 
     
+<!-- Contenedor de pagina -->
+<div id="wrapper">
 
-<!-- Barra lateral -->
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <!-- Barra lateral -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-    <!-- Barra lateral - Marca -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/src/paginas-html/index.html">
-        <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fas fa-laugh-wink"></i>
-        </div>
-        <div class="sidebar-brand-text mx-3">Permisos PC<sup> FWD</sup></div>
-    </a>
-    <!-- Separador -->
-    <hr class="sidebar-divider my-0">
-
-    <!-- Elemento de navegación - Panel de control -->
-    <li class="nav-item active">
-        <a class="nav-link" href="/src/paginas-html/index.html">
-            <i class="fas fa-house-user"></i>
-            <span>Inicio</span></a>
-    </li>
-
-    <!-- Separador -->
-    <hr class="sidebar-divider">
-
-    <!-- Encabezado -->
-    <div class="sidebar-heading">
-        Interfaz
-    </div>
-
-    <!-- Separador -->
-    <hr class="sidebar-divider">
-
-    <!-- Encabezado -->
-    <div class="sidebar-heading">
-        Complementos
-    </div>
-
-    <!-- Elemento de navegación - Menú de contracción de páginas -->
-    <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages"
-            aria-expanded="false" aria-controls="collapsePages">
-            <i class="fas fa-fw fa-folder"></i>
-            <span>Páginas</span>
-        </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-bs-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-                <h6 class="collapse-header">Inicio de sesión:</h6>
-                <a class="collapse-item" href="/src/paginas-html/login.html">Login</a>
-                <a class="collapse-item" href="/src/paginas-html/register.html">Register</a>
-                <div class="collapse-divider"></div>
+        <!-- Barra lateral - Marca -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/src/paginas-html/index.html">
+            <div class="sidebar-brand-icon rotate-n-15">
+                <i class="fas fa-laugh-wink"></i>
             </div>
-        </div>
-    </li>
+            <div class="sidebar-brand-text mx-3">Permisos PC<sup> FWD</sup></div>
+        </a>
+        <!-- Separador -->
+        <hr class="sidebar-divider my-0">
 
-    <!-- Elemento de navegación - Tablas -->
+        <!-- Elemento de navegación - Panel de control -->
+        <li class="nav-item active">
+            <a class="nav-link" href="/src/paginas-html/index.html">
+                <i class="fas fa-house-user"></i>
+                <span>Inicio</span></a>
+        </li>
 
-    <!-- Separador -->
-    <hr class="sidebar-divider d-none d-md-block">
+        <!-- Separador -->
+        <hr class="sidebar-divider">
 
-</ul>
+    </ul>
+    <!-- Fin de la barra lateral -->
 
+    <!-- Envoltorio de contenido -->
+    <div id="content-wrapper" class="d-flex flex-column">
 
+        <!-- Barra superior -->
+        <nav 
+        class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+        </nav>
+        <!-- Fin de barra superior -->
+        
+        <!-- Contenido de la página de inicio -->
+        <div class="container-fluid">
+        <!-- Fila de contenido -->
+        <div class="row">
+
+               
 <!-- Contenido principal -->
 <div class="tablero" id="content">
     <div class="card shadow mb-4">
@@ -120,17 +102,9 @@
     </div>
 </div>
 <!-- fin de contenido principal -->
-
-
-
-
-
-
-
-
-
-
-
+    </div>
+    <!-- fin del envoltorio de contenido -->
+</div>
 
 
 
