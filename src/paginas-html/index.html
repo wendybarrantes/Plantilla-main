@@ -27,7 +27,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Barra lateral - Marca -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/src/paginas-html/index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -38,7 +38,7 @@
 
             <!-- Elemento de navegación - Panel de control -->
             <li class="nav-item active">
-                <a class="nav-link" href="/src/paginas-html/index.html">
+                <a class="nav-link" href="index.html">
                     <i class="fas fa-house-user"></i>
                     <span>Inicio</span></a>
             </li>
@@ -68,9 +68,9 @@
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-bs-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Inicio de sesión:</h6>
-                        <a class="collapse-item" href="/src/paginas-html/login.html">Login</a>
-                        <a class="collapse-item" href="/src/paginas-html/register.html">Register</a>
+                        <h6 class="collapse-header">Pantallas de inicio de sesión:</h6>
+                        <a class="collapse-item" href="login.html">Login</a>
+                        <a class="collapse-item" href="register.html">Register</a>
                         <div class="collapse-divider"></div>
                     </div>
                 </div>
@@ -81,7 +81,10 @@
             <!-- Separador -->
             <hr class="sidebar-divider d-none d-md-block">
 
-            
+            <!-- Alterador de la barra lateral (Barra lateral) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
         </ul>
         <!-- Fin de la barra lateral -->
 
@@ -166,9 +169,7 @@
                 <div class="topbar-divider d-none d-sm-block"></div>
 
                 <!-- Elemento de navegación - información del usuario -->
-
                 <li class="nav-item dropdown no-arrow">
-                    
                     <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span class="mr-2 d-none d-lg-inline text-gray-600 small">Wendy Barrantes</span>
@@ -195,49 +196,48 @@
                 <div class="row">
 
                     <!-- Tarjeta administradores -->
-                    <a href="/src/paginas-html/administradores.html">
                     <div class="col-xl-3 col-md-6 mb-4">
                         <div class="card border-left-primary shadow h-100 py-2">
-                            <div class="card-body">
-                                <div class="row no-gutters align-items-center">
-                                    <div class="col mr-2">
-                                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                            Administradores
+                            <a href="/src/paginas-html/administradores.html">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                Administradores
+                                            </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800"></div>
                                         </div>
-                                        <div class="h5 mb-0 font-weight-bold text-gray-800"></div>
-                                    </div>
-                                    <div class="col-auto">
-                                        <i class="fas fa-chalkboard-teacher fa-2x text-gray-300"></i>
+                                        <div class="col-auto">
+                                            <i class="fas fa-chalkboard-teacher fa-2x text-gray-300"></i>
+                                        </div>
                                     </div>
                                 </div>
+                            </a>
                             </div>
-                        </a>
                         </div>
-                    </div>
 
                     <!-- Tarjeta registrar usuarios -->
-                    <a href="/src/paginas-html/registrarusuarios.html">
                     <div class="col-xl-3 col-md-6 mb-4">
                         <div class="card border-left-success shadow h-100 py-2">
-                            <div class="card-body">
-                                <div class="row no-gutters align-items-center">
-                                    <div class="col mr-2">
-                                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                            Registrar usuarios
+                                <a href="/src/paginas-html/registrarusuarios.html">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                Registrar usuarios
+                                            </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800"></div>
                                         </div>
-                                        <div class="h5 mb-0 font-weight-bold text-gray-800"></div>
-                                    </div>
-                                    <div class="col-auto">
-                                        <i class="fas fa-user-plus fa-2x text-gray-300"></i>
+                                        <div class="col-auto">
+                                            <i class="fas fa-user-plus fa-2x text-gray-300"></i>
+                                        </div>
                                     </div>
                                 </div>
+                            </a>
                             </div>
-                        </a>
                         </div>
-                    </div>
 
                     <!-- Tarjeta historial de seguidores -->
-                    <a href="/src/paginas-html/historialdesolicitudes.html">
                     <div class="col-xl-3 col-md-6 mb-4">
                         <div class="card border-left-info shadow h-100 py-2">
                             <div class="card-body">
@@ -257,12 +257,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </a>
                         </div>
                     </div>
 
                     <!-- Tarjeta solicitudes de préstamo -->
-                    <a href="/src/paginas-html/solicitudesdeprestamo.html">
                     <div class="col-xl-3 col-md-6 mb-4">
                         <div class="card border-left-warning shadow h-100 py-2">
                             <div class="card-body">
@@ -278,7 +276,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </a>
                         </div>
                     </div>
                 </div>
