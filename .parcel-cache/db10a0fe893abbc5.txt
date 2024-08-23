@@ -1,4 +1,4 @@
-8914
+8913
 126C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\exclamation-triangle.svg133688114831189872 0
 102C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\paginas-html\registrarusuarios.html133689058431938915 0
 106C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\lmdb\dependencies\lmdb-data-v1133688117200791215 1
@@ -78,12 +78,6 @@
 132C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\dom-serializer\node_modules\entities\lib\encode.d.ts.map133688117210288895 0
 93C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\is-glob\README.md133688117204731416 0
 80C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\package-lock.json133688117269400885 0
-107C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\caniuse-lite\data\regions\SE.js133688117236295719 0
-72C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\README.md133688114449092720 0
-139C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\svgs\regular\face-grin-tongue.svg133688117241953994 0
-120C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\cloud-sun-rain.svg133688114794303721 0
-117C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\brands\staylinked.svg133688114622919133 0
-114C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@tinyhttp\proxy-addr\dist\index.js.map133688117210525502 0
 96C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\is-json\package.json133688117200791215 0
 118C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\webfonts\fa-solid-900.woff2133688115104561931 0
 126C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\svgs\brands\waze.svg133688117260331398 0
@@ -101,11 +95,11 @@
 130C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\svgs\solid\ice-cream.svg133688117247283464 0
 118C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\vr-cardboard.svg133688115089709875 0
 124C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@parcel\transformer-babel\src\babelErrorUtils.js133688117205704733 0
-110C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\user.svg133688115079394253 0
-106C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\xxhash-wasm\cjs\xxhash-wasm.js133688117200952046 0
+111C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\bahai.svg133688114737491627 0
 93C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\terser\lib\ast.js133688117207522453 0
 109C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@swc\helpers\lib\_create_super.js133688117219728806 0
-111C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\bahai.svg133688114737491627 0
+110C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\user.svg133688115079394253 0
+106C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\xxhash-wasm\cjs\xxhash-wasm.js133688117200952046 0
 117C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\lungs-virus.svg133688114924343107 0
 119C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\regular\sticky-note.svg133688114710763494 0
 74C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\estilos133689169221924081 1
@@ -1205,6 +1199,9 @@
 102C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\binary-extensions\index.js133688117202458791 0
 113C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\brands\centos.svg133688114506613868 0
 125C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\cloud-showers-heavy.svg133688114793834798 0
+120C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\cloud-sun-rain.svg133688114794303721 0
+117C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\brands\staylinked.svg133688114622919133 0
+114C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@tinyhttp\proxy-addr\dist\index.js.map133688117210525502 0
 115C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\cloud-sun.svg133688114794616279 0
 119C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\funnel-dollar.svg133688114857135242 0
 112C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\brands\whmcs.svg133688114648084590 0
@@ -1774,6 +1771,7 @@
 130C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\svgs\solid\star-half.svg133688117256947035 0
 132C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\svgs\brands\github-alt.svg133688117244450452 0
 115C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\hand-rock.svg133688114880892432 0
+117C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\volume-mute.svg133688115088146911 0
 101C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\lmdb\src\v8-functions.cpp133688117223647239 0
 116C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\hand-spock.svg133688114881986517 0
 104C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@parcel\workers\package.json133688117220482010 0
@@ -2760,7 +2758,6 @@
 121C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\volleyball-ball.svg133688115087365411 0
 117C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\volume-down.svg133688115087834308 0
 120C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\caniuse-lite\data\features\input-datetime.js133688117232837476 0
-117C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\volume-mute.svg133688115088146911 0
 116C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\volume-off.svg133688115088459490 0
 98C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\to-regex-range\LICENSE133688117203618222 0
 107C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\caniuse-lite\data\regions\TK.js133688117237419976 0
@@ -5840,6 +5837,7 @@
 107C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\caniuse-lite\data\regions\RU.js133688117236181902 0
 107C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\caniuse-lite\data\regions\SB.js133688117236295719 0
 137C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\svgs\regular\calendar-xmark.svg133688117234466306 0
+107C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\caniuse-lite\data\regions\SE.js133688117236295719 0
 116C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@parcel\source-map\parcel_sourcemap_wasm133688117210123407 1
 107C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\caniuse-lite\data\regions\SG.js133688117236516917 0
 101C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@swc\helpers\package.json133688117200791215 0
@@ -8409,6 +8407,7 @@
 137C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\svgs\regular\face-grin-beam.svg133688117241785435 0
 139C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\svgs\regular\face-grin-hearts.svg133688117241785435 0
 139C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\svgs\regular\face-grin-squint.svg133688117241785435 0
+139C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\svgs\regular\face-grin-tongue.svg133688117241953994 0
 132C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\svgs\regular\face-grin.svg133688117242117306 0
 143C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\svgs\regular\face-kiss-wink-heart.svg133688117242117306 0
 132C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\svgs\regular\face-kiss.svg133688117242117306 0
