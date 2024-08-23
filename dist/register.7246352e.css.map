@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["src/estilos/registroadministradores.css"],"sourcesContent":[".contenedor{\r\n    position: relative;\r\n    left: -45%;\r\n}\r\n.titulo{\r\n    position: relative;\r\n    left: -45%;\r\n}\r\n.cuenta{\r\n    position: relative;\r\n    left: -45%;\r\n}"],"names":[],"version":3,"file":"register.7246352e.css.map","sourceRoot":"/__parcel_source_root/"}

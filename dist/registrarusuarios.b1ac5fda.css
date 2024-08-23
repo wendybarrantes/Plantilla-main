@@ -1,6 +1,6 @@
-.contenedor {
+.contenedor, .titulo, .cuenta {
   position: relative;
-  left: 70%;
+  left: -45%;
 }
 
 /*# sourceMappingURL=registrarusuarios.b1ac5fda.css.map */
