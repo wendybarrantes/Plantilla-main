@@ -1,5 +1,24 @@
-.contenedor, .titulo {
+.card {
+  text-align: center;
+  height: 100%;
+  width: 80%;
+  justify-content: center;
+}
+
+.contenedor {
   position: relative;
+  left: 80px;
+  right: 50px;
+}
+
+.usuario {
+  position: relative;
+  left: 50%;
+}
+
+.titulo {
+  position: relative;
+  top: -40px;
   left: 50%;
 }
 
