@@ -51,7 +51,7 @@
 112C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\stream.svg133688115032973946 0
 89C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\img\undraw_profile.svg133688115105499708 0
 113C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\brands\github.svg133688114548657863 0
-67C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\dist133689020523215910 1
+67C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\dist133689022173815268 1
 91C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\img\undraw_profile_3.svg133688115106750104 0
 112C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\filter.svg133688114848069980 0
 96C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\csso\lib\compress.js133688117213166851 0
@@ -198,7 +198,7 @@
 117C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\file-export.svg133688114841349202 0
 104C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\yaml\dist\Schema-88e323a7.js133688117219135982 0
 114C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\restroom.svg133688114984830490 0
-90C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\paginas-html\login.html133689007236087293 0
+90C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\paginas-html\login.html133689021961370436 0
 120C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\head-side-mask.svg133688114887925819 0
 130C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\svgs\solid\hand-fist.svg133688117245613799 0
 112C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\src\extras\fontawesome-free\svgs\solid\anchor.svg133688114721235425 0
@@ -6311,7 +6311,7 @@
 134C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@parcel\transformer-html\node_modules\posthtml-parser\dist133688117207792847 1
 123C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\js\regular.min.js133688117225354115 0
 112C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\caniuse-lite\data\features\tls1-3.js133688117237481696 0
-78C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\dist\login.html133689019941829407 0
+78C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\dist\login.html133689022173795265 0
 111C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\caniuse-lite\data\features\touch.js133688117237531698 0
 127C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\@fortawesome\fontawesome-free\svgs\solid\divide.svg133688117238795433 0
 118C:\Users\wenba\Downloads\proyectos_frontend\Sitema-de-permisos\node_modules\caniuse-lite\data\features\transforms2d.js133688117237561694 0
