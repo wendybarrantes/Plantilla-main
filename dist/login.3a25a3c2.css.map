@@ -1,1 +1,1 @@
-{"mappings":"","sources":["src/estilos/loginadministradores.css"],"sourcesContent":["\r\n"],"names":[],"version":3,"file":"login.3a25a3c2.css.map","sourceRoot":"/__parcel_source_root/"}
+{"mappings":"AAAA","sources":["src/estilos/loginadministradores.css"],"sourcesContent":[".contenedor{\r\n    position: relative;\r\n    left: 70%;\r\n}\r\n.titulo{\r\n    position: relative;\r\n    left: 70%;\r\n}\r\n.cuenta{\r\n    position: relative;\r\n    left: 70%;\r\n}"],"names":[],"version":3,"file":"login.3a25a3c2.css.map","sourceRoot":"/__parcel_source_root/"}
