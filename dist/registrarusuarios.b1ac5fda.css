@@ -1,6 +1,11 @@
-.contenedor, .titulo, .cuenta {
+.contenedor, .titulo {
   position: relative;
-  left: -45%;
+  left: 50%;
+}
+
+.btn {
+  background-color: #1cc88a;
+  border-color: #1cc88a;
 }
 
 /*# sourceMappingURL=registrarusuarios.b1ac5fda.css.map */

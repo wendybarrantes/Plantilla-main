@@ -1,12 +1,12 @@
 .contenedor{
     position: relative;
-    left: -45%;
+    left: 50%;
 }
 .titulo{
     position: relative;
-    left: -45%;
+    left: 50%;
 }
-.cuenta{
-    position: relative;
-    left: -45%;
+.btn{
+    background-color: #1cc88a;
+    border-color: #1cc88a;
 }
