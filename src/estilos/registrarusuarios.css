@@ -1,7 +1,12 @@
-.container{
-    margin-top: 10vh;
-    width: 70%;
-    position: absolute;
-    top: 2%;
-    left: 20%;
+.contenedor{
+    position: relative;
+    left: -45%;
+}
+.titulo{
+    position: relative;
+    left: -45%;
+}
+.cuenta{
+    position: relative;
+    left: -45%;
 }
