@@ -560,7 +560,8 @@ function hmrAccept(bundle, id) {
 /*importo la funcion traer datos. referencio los ids para poder validarlos.
  creao la funcion validar datos. creo la funcion ejecutar validacion, si los datos son correctos 
  me redirige a la pagina de inicio y sino da un mensaje error.
- Le doy en evento al boton*/ var _fetch = require("../servicios/fetch");
+ Le doy en evento al boton*/ //get
+var _fetch = require("../servicios/fetch");
 let btn = document.getElementById("iniciarSesion");
 async function validarDatos(nombre, clave) {
     let guardarDatos = await (0, _fetch.traerDatos)("administradores");
@@ -582,14 +583,33 @@ btn.addEventListener("click", ejecutarValidacion);
 
 },{"../servicios/fetch":"aJdq8"}],"aJdq8":[function(require,module,exports) {
 /*creo una funcion para traer los enpoints(los datos de la api) y la exporto para poder
- modularizar. Uso el bloque tryCatch para prevenir errores*/ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+ modularizar. Uso el bloque tryCatch para prevenir errores*/ //get
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "traerDatos", ()=>traerDatos);
+parcelHelpers.export(exports, "enviarDatos", ()=>enviarDatos) //
+;
 async function traerDatos(endpoint) {
     try {
         let peticion = await fetch(`http://localhost:3001/${endpoint}`);
         let guardarDatos = await peticion.json();
         return guardarDatos;
+    } catch (error) {
+        console.log(error);
+    }
+}
+//post
+async function enviarDatos(endpoint, objeto) {
+    try {
+        let peticion = await fetch(`http://localhost:3001/${endpoint}`, {
+            method: "POST",
+            headers: {
+                "Content-type": "application/json; charset=UTF-8"
+            },
+            body: JSON.stringify(objeto)
+        });
+        let datos = await peticion.json();
+        console.log(datos);
     } catch (error) {
         console.log(error);
     }

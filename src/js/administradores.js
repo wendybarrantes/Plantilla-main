@@ -4,8 +4,8 @@
  Le doy en evento al boton*/
 
 
- 
-import { traerDatos } from "../servicios/fetch"
+ //get
+import {enviarDatos, traerDatos } from "../servicios/fetch"
 let btn = document.getElementById("iniciarSesion")
 
 async function validarDatos(nombre,clave) {
@@ -35,3 +35,7 @@ async function ejecutarValidacion(){
 
 }
 btn.addEventListener("click",ejecutarValidacion)
+
+
+
+

@@ -1,11 +1,18 @@
 {
   "administradores": [
     {
-      "Nombre":"Wendy",
+      "Nombre": "Wendy",
       "Apellido": "Barrantes",
-      "Clave":"1234",
+      "Clave": "1234",
       "Sede": "Santa Ana",
-      "id": 0
+      "id": "0"
+    },
+    {
+      "id": "989e",
+      "Nombre": "Roberto",
+      "Apellido": "Alpizar",
+      "Clave": "0000",
+      "Sede": "Puntarenas"
     }
   ]
 }
