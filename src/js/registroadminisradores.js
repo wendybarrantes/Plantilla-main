@@ -17,5 +17,6 @@ import { enviarDatos } from "../servicios/fetch"
            Sede:sede,
        }
        await enviarDatos("administradores",objeto)
+       window.location.href="login.html"
    }
    btnRegistrar.addEventListener("click",crearAdministrador)

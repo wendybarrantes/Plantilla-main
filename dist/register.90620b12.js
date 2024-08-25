@@ -573,6 +573,7 @@ async function crearAdministrador() {
         Sede: sede
     };
     await (0, _fetch.enviarDatos)("administradores", objeto);
+    window.location.href = "login.html";
 }
 btnRegistrar.addEventListener("click", crearAdministrador);
 

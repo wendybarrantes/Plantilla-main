@@ -13,6 +13,22 @@
       "Apellido": "Alpizar",
       "Clave": "0000",
       "Sede": "Puntarenas"
+    },
+    {
+      "id": "cbdc",
+      "Nombre": "Tatiana",
+      "Apellido": "Romero",
+      "Clave": "0000",
+      "Sede": "Nosara"
     }
+  ],
+  "estudiantes":[{
+    "nombre": "Ana",
+    "apellido":"Sandi",
+    "clave": "1234",
+    "id": "1-01"
+  }
   ]
+
+
 }
