@@ -22,13 +22,19 @@
       "Sede": "Nosara"
     }
   ],
-  "estudiantes":[{
-    "nombre": "Ana",
-    "apellido":"Sandi",
-    "clave": "1234",
-    "id": "1-01"
-  }
+  "estudiantes": [
+    {
+      "nombre": "Ana",
+      "apellido": "Sandi",
+      "clave": "1234",
+      "id": "1-05"
+    },
+    {
+      "id": "e4ff",
+      "nombre": "gabriel",
+      "apellido": "Barrantes",
+      "clave": "000",
+      "numid": "01"
+    }
   ]
-
-
 }
