@@ -1,0 +1,11 @@
+.contenedorPrincipal {
+  position: relative;
+  top: 90px;
+}
+
+.contenedor, .titulo, .cuenta {
+  position: relative;
+  left: 70%;
+}
+
+/*# sourceMappingURL=inicioSesionEstudiantes.6164a943.css.map */
