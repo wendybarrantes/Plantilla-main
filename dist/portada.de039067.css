@@ -1,0 +1,24 @@
+body {
+  background-color: #4268d6 !important;
+}
+
+.estudiantes, .administradores {
+  width: 20%;
+  flex-direction: row;
+  margin: 0 auto;
+  display: flex;
+}
+
+.administradores {
+  float: left;
+  margin-left: 5vw;
+  top: 30vh;
+}
+
+.estudiantes {
+  float: left;
+  position: relative;
+  inset: 30vh 50vw 50% 50%;
+}
+
+/*# sourceMappingURL=portada.de039067.css.map */

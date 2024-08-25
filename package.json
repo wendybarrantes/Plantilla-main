@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/paginas-html/index.html --open"
+    "start": "parcel src/paginas-html/portada.html --open"
   },
   "keywords": [],
   "author": "",

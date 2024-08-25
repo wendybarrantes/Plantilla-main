@@ -1,0 +1,12 @@
+.tarjetas {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4%;
+  display: flex;
+}
+
+.tarjeta {
+  width: 500vh;
+}
+
+/*# sourceMappingURL=portada.442836c1.css.map */

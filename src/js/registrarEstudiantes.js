@@ -21,4 +21,3 @@ let objeto = {
 await enviarDatos("estudiantes", objeto)
 }
 btnRegistrarEst.addEventListener("click",crearLosEstudiantes)
-alert("hososncksd")

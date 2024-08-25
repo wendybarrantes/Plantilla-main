@@ -577,7 +577,6 @@ async function crearLosEstudiantes() {
     await (0, _fetch.enviarDatos)("estudiantes", objeto);
 }
 btnRegistrarEst.addEventListener("click", crearLosEstudiantes);
-alert("hososncksd");
 
 },{"../servicios/fetch":"aJdq8"}],"aJdq8":[function(require,module,exports) {
 /*creo una funcion para traer los enpoints(los datos de la api) y la exporto para poder

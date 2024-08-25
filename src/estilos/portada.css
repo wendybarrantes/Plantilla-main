@@ -1,0 +1,24 @@
+body{
+    background-color: #4268d6 !important;
+}
+.estudiantes,.administradores{
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.administradores{
+    float: left;
+    top: 30vh;
+    margin-left: 5vw;
+    
+
+}
+.estudiantes{
+    float: left;
+    position: relative;
+    bottom: 50%;
+    left: 50%;
+    top: 30vh;
+    right: 50vw;
+}

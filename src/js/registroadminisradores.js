@@ -4,7 +4,6 @@ import { enviarDatos } from "../servicios/fetch"
    
    //post
    let btnRegistrar = document.getElementById("btnRegistrar")
-   alert("holaaa")
    async function crearAdministrador() {
        let nombre = document.getElementById("nombre").value
        let apellido = document.getElementById("apellido").value
