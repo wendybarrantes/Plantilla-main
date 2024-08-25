@@ -1,3 +1,11 @@
 {
-  "users": []
+  "administradores": [
+    {
+      "Nombre":"Wendy",
+      "Apellido": "Barrantes",
+      "Clave":"1234",
+      "Sede": "Santa Ana",
+      "id": 0
+    }
+  ]
 }
