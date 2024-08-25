@@ -557,21 +557,32 @@ function hmrAccept(bundle, id) {
 }
 
 },{}],"guA4Y":[function(require,module,exports) {
-var _fetch = require("../servicios/fetch");
-let nombre = document.getElementById("nombre");
-let clave = documnet.getElementById("clave");
+/*importo la funcion traer datos. referencio los ids para poder validarlos.
+ creao la funcion validar datos. creo la funcion ejecutar validacion, si los datos son correctos 
+ me redirige a la pagina de inicio y sino da un mensaje error.
+ Le doy en evento al boton*/ var _fetch = require("../servicios/fetch");
 let btn = document.getElementById("iniciarSesion");
 async function validarDatos(nombre, clave) {
-    if (!nombre || !clave) {
-        nombre.value = "llene los espacios";
-        clave.value = "llene los espacios";
-        return false;
-    }
     let guardarDatos = await (0, _fetch.traerDatos)("administradores");
+    let validarUsuario = guardarDatos.find((usuario)=>usuario.Nombre === nombre && usuario.Clave === clave);
+    return validarUsuario;
 }
+async function ejecutarValidacion() {
+    let nombre = document.getElementById("nombre").value;
+    let clave = document.getElementById("clave").value;
+    let llamarDatos = await validarDatos(nombre, clave);
+    if (llamarDatos) window.location.href = "index.html";
+    else {
+        let error = document.getElementById("error");
+        error.style.display = "block";
+        error.textContent = "usuario incorrecto, llene los espacios";
+    }
+}
+btn.addEventListener("click", ejecutarValidacion);
 
 },{"../servicios/fetch":"aJdq8"}],"aJdq8":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+/*creo una funcion para traer los enpoints(los datos de la api) y la exporto para poder
+ modularizar. Uso el bloque tryCatch para prevenir errores*/ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "traerDatos", ()=>traerDatos);
 async function traerDatos(endpoint) {
