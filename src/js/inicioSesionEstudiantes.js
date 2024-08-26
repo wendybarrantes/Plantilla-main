@@ -1,10 +1,6 @@
 import { traerDatos } from "../servicios/fetch"
 
-let iniciar = document.getElementById("iniciar")
 
-iniciar.addEventListener("click",()=>{
-window.location.href="inicioSesionEstudiantes.html"
-})
 let btniniciarSesion= document.getElementById("iniciarSesion")
 
 
@@ -22,7 +18,7 @@ async function ejecutarValidacion(){
     
     let llamarDatos = await ValidarEstudiantes(numeroid,clave)
     if (llamarDatos) {
-        window.location.href="index.html"
+        window.location.href="index.html" // Va el formukario de prestamo
     }
     else{
         let error = document.getElementById("error")
@@ -32,4 +28,3 @@ async function ejecutarValidacion(){
     }
 }
 btniniciarSesion.addEventListener("click",ejecutarValidacion)
-alert("jaobs")

@@ -558,10 +558,6 @@ function hmrAccept(bundle, id) {
 
 },{}],"7BItw":[function(require,module,exports) {
 var _fetch = require("../servicios/fetch");
-let iniciar = document.getElementById("iniciar");
-iniciar.addEventListener("click", ()=>{
-    window.location.href = "inicioSesionEstudiantes.html";
-});
 let btniniciarSesion = document.getElementById("iniciarSesion");
 async function ValidarEstudiantes(numeroid, clave) {
     let datos = await (0, _fetch.traerDatos)("estudiantes");
@@ -572,7 +568,8 @@ async function ejecutarValidacion() {
     let numeroid = document.getElementById("numeroid").value;
     let clave = document.getElementById("clave").value;
     let llamarDatos = await ValidarEstudiantes(numeroid, clave);
-    if (llamarDatos) window.location.href = "index.html";
+    if (llamarDatos) window.location.href = "index.html" // Va el formukario de prestamo
+    ;
     else {
         let error = document.getElementById("error");
         error.style.display = "block";
@@ -580,7 +577,6 @@ async function ejecutarValidacion() {
     }
 }
 btniniciarSesion.addEventListener("click", ejecutarValidacion);
-alert("jaobs");
 
 },{"../servicios/fetch":"aJdq8"}],"aJdq8":[function(require,module,exports) {
 /*creo una funcion para traer los enpoints(los datos de la api) y la exporto para poder
