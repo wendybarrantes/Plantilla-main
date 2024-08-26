@@ -3,8 +3,8 @@ body {
 }
 
 .estudiantes, .administradores {
-  width: 20%;
   flex-direction: row;
+  width: 20%;
   margin: 0 auto;
   display: flex;
 }
@@ -20,5 +20,4 @@ body {
   position: relative;
   inset: 30vh 50vw 50% 50%;
 }
-
 /*# sourceMappingURL=portada.de039067.css.map */

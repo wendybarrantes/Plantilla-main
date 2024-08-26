@@ -1,1 +1,0 @@
-{"mappings":"AAAA;;;;;;;AAMA","sources":["src/estilos/index.css"],"sourcesContent":[".tarjetas{\r\n    margin-top: 4%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n}\r\n.tarjeta{\r\n    width: 500vh;\r\n}\r\n"],"names":[],"version":3,"file":"portada.442836c1.css.map","sourceRoot":"/__parcel_source_root/"}

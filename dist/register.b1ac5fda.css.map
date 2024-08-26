@@ -1,1 +1,0 @@
-{"mappings":"AAAA","sources":["src/estilos/registrarusuarios.css"],"sourcesContent":[".contenedor{\r\n    position: relative;\r\n    left: -45%;\r\n}\r\n.titulo{\r\n    position: relative;\r\n    left: -45%;\r\n}\r\n.cuenta{\r\n    position: relative;\r\n    left: -45%;\r\n}"],"names":[],"version":3,"file":"register.b1ac5fda.css.map","sourceRoot":"/__parcel_source_root/"}

@@ -24,7 +24,7 @@ async function ejecutarValidacion(){
     
     let llamarDatos = await validarDatos(nombre,clave)
     if (llamarDatos) {
-        window.location.href="index.html"
+        window.location.href="inicio.html"
     }
     else{
         let error = document.getElementById("error")
