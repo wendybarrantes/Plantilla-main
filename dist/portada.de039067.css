@@ -1,27 +1,19 @@
-body {
-  background-color: #4268d6 !important;
-}
-
-.estudiantes, .administradores {
-  flex-direction: row;
-  width: 20%;
-  display: flex;
-}
-
 .administradores {
-  float: left;
-  margin-left: 5vw;
-  top: 30vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  left: 170%;
 }
 
 .estudiantes {
-  float: left;
-  position: relative;
-  inset: 30vh 50vw 50% 50%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50%;
+  display: flex;
+  left: 50%;
 }
 
 .titulo {
-  color: #fff;
   text-align: center;
   margin-top: 10%;
 }
