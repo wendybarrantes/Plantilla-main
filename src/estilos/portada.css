@@ -3,7 +3,6 @@ body{
 }
 .estudiantes,.administradores{
     width: 20%;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
 }
@@ -11,7 +10,6 @@ body{
     float: left;
     top: 30vh;
     margin-left: 5vw;
-    
 
 }
 .estudiantes{
@@ -21,4 +19,12 @@ body{
     left: 50%;
     top: 30vh;
     right: 50vw;
+}
+.titulo{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+.btnInicioEstudiantes{
+    
 }

@@ -5,7 +5,6 @@ body {
 .estudiantes, .administradores {
   flex-direction: row;
   width: 20%;
-  margin: 0 auto;
   display: flex;
 }
 
@@ -19,5 +18,11 @@ body {
   float: left;
   position: relative;
   inset: 30vh 50vw 50% 50%;
+}
+
+.titulo {
+  color: #fff;
+  text-align: center;
+  margin-top: 10%;
 }
 /*# sourceMappingURL=portada.de039067.css.map */
