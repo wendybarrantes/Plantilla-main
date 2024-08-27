@@ -585,9 +585,9 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"ltSpj":[function(require,module,exports) {
 /*importo la funcion traer datos. referencio los ids para poder validarlos.
- creao la funcion validar datos. creo la funcion ejecutar validacion, si los datos son correctos 
+ creo la funcion validar datos. creo la funcion ejecutar validacion, si los datos son correctos 
  me redirige a la pagina de inicio y sino da un mensaje error.
- Le doy en evento al boton*/ //get
+ Le doy un evento al boton*/ //get
 var _fetch = require("../servicios/fetch");
 let btn = document.getElementById("iniciarSesion");
 async function validarDatos(nombre, clave) {
