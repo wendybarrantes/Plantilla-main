@@ -1,0 +1,20 @@
+.tituloForm{
+    position: relative;
+    text-align: center;
+    text-decoration: dotted;
+    top: 50px;
+    color: #4e73e5;
+    background-color: #eff1ff;
+}
+
+
+.formulario{
+    position: relative;
+    top: 100px;
+    border: 1px solid #ccc;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}

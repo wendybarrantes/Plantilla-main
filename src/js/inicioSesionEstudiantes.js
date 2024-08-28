@@ -19,7 +19,7 @@ async function ejecutarValidacion(e){
     let llamarDatos = await ValidarEstudiantes(numeroid,clave)
     if (llamarDatos) {
         
-        window.location.href="inicio.html" // Va el formulario de prestamo
+        window.location.href="formulario.html" // Va el formulario de prestamo
     }
     else{
         let error = document.getElementById("error")
