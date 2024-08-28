@@ -2,19 +2,25 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  top: -115px;
   left: 170%;
 }
 
 .estudiantes {
   justify-content: center;
   align-items: center;
-  margin-top: 50%;
   display: flex;
+  top: 50px;
   left: 50%;
 }
 
 .titulo {
   text-align: center;
   margin-top: 10%;
+}
+
+.btnInicioEstudiantes, .btnInicioAdministradores {
+  border: none;
+  border-radius: 50px;
 }
 /*# sourceMappingURL=portada.de039067.css.map */
