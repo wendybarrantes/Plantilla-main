@@ -2,6 +2,14 @@ body{
     background: #F4F7FD;
     margin-top:20px;
 }
+.btnSolicitudes{
+  position: relative;
+  margin-left: 50%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction:row;
+  
+}
 
 .card-margin {
     margin-bottom: 1.875rem;

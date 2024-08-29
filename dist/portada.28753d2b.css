@@ -3,6 +3,14 @@ body {
   margin-top: 20px;
 }
 
+.btnSolicitudes {
+  flex-direction: row;
+  margin-top: 10%;
+  margin-left: 50%;
+  display: flex;
+  position: relative;
+}
+
 .card-margin {
   margin-bottom: 1.875rem;
 }
