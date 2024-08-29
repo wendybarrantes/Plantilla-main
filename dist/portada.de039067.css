@@ -20,7 +20,10 @@
 }
 
 .btnInicioEstudiantes, .btnInicioAdministradores {
-  border: none;
   border-radius: 50px;
+}
+
+.textobtn:hover {
+  text-decoration: none;
 }
 /*# sourceMappingURL=portada.de039067.css.map */
