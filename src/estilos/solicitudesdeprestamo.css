@@ -4,11 +4,11 @@ body{
 }
 .btnSolicitudes{
   position: relative;
-  margin-left: 50%;
+  margin-left: 43%;
   margin-top: 10%;
   display: flex;
   flex-direction:row;
-  
+  gap: 10px;
 }
 
 .card-margin {

@@ -13,7 +13,9 @@
 <link rel="stylesheet" href="../estilos/administradores.css">
 <link rel="stylesheet" href="/src/estilos/formulario.css"> 
 <link rel="stylesheet" href="../estilos/index.css">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> <!--ESTILOS PARA QUE EL MODAL FUNCIONE-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> <!--JS PARA QUE EL MODAL FUNCIONE-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> <!--JS PARA QUE EL MODAL FUNCIONE-->
 
 </head>
 <body>
@@ -95,11 +97,16 @@
             </div>
              
             <div class="form-group">
+              <input class="form-check-input is-valid" type="checkbox" value="" id="invalidCheck3" required>
               <div class="form-check">
+<<<<<<< HEAD
                 <input class="form-check-input is-valid" type="checkbox" value="" id="terminos" required>
+=======
+>>>>>>> fbe5218d0729eafdadd2ac458af6805d083b38b0
                 <label class="form-check-label" for="invalidCheck3">
-                  Acepto los términos y condiciones.
-                </label>
+                   Acepto los términos y condiciones. 
+                  </label>
+                  <a class="text-primary" data-toggle="modal" data-target="#myModal">Ver los terminos y condiciones</a> 
                 <div class="invalid-feedback">
                   Debe estar de acuerdo antes de enviar.
                 </div>
@@ -114,6 +121,47 @@
 
 </div>
 <!-- fin del envoltorio de contenido -->
+<<<<<<< HEAD
 <script src="/src/js/formulario.js" type="module"></script>
+=======
+
+
+<!--MODAL-->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body text-center">
+        <p>Términos y condiciones</p>
+      </div>
+      <ul class="text-center" style="list-style: none;"> 
+        <li>Si viajas en transporte público, debes resguardar tu equipo en tu bolso personal, no exponerlo.</li>
+        <li>Si llevas el equipo, procura ir acompañado.</li>
+        <li>Si está lloviendo, procura llevar el equipo en un vehículo apropiado para evitar algún daño.</li>
+        <li>Evitar jugar, descargar o utilizar el equipo para otros motivos que
+          no sean relacionados con el estudio.</li>
+        <li>El equipo será revisado antes y después de ser entregado.
+            Cualquier alteración o instalación indebida podría resultar en la
+            pérdida de privilegios.</li>
+        <li>Si retiras una computadora sin haber completado el formulario y la
+              boleta física, podrías ser amonestado.</li>
+        <li>Este formulario debe llenarse junto con la boleta física, que debe
+                estar firmada por la persona encargada.</li>
+      </ul>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+>>>>>>> fbe5218d0729eafdadd2ac458af6805d083b38b0
 </body>
 </html>
