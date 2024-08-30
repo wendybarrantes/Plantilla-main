@@ -1,0 +1,24 @@
+.estudiantes, .administradores {
+  flex-direction: row;
+  width: 20%;
+  display: flex;
+}
+
+.administradores {
+  float: left;
+  margin-left: 5vw;
+  top: 30vh;
+}
+
+.estudiantes {
+  float: left;
+  position: relative;
+  inset: 30vh 50vw 50% 50%;
+}
+
+.titulo {
+  color: #00f;
+  text-align: center;
+  margin-top: 10%;
+}
+/*# sourceMappingURL=portada.de039067.css.map */

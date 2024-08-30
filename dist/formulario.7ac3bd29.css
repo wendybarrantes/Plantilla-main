@@ -1,0 +1,24 @@
+.tituloForm {
+  text-align: center;
+  color: #4e73e5;
+  background-color: #eff1ff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  top: 50px;
+}
+
+.formulario {
+  border: 1px solid #ccc;
+  justify-content: center;
+  width: 800px;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  top: 100px;
+}
+
+a {
+  cursor: pointer;
+}
+/*# sourceMappingURL=formulario.7ac3bd29.css.map */

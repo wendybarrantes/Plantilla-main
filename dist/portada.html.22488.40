@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada</title>
+
+ <!-- Fuentes personalizadas para esta plantilla-->
+ <link rel="stylesheet" type="text/css" href="/administradores.e83f09ac.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link rel="stylesheet" href="/portada.de039067.css">
+<link rel="stylesheet" href="/portada.28753d2b.css">
+<link rel="stylesheet" href="/administradores.f1aff4c1.css">
+<link rel="stylesheet" href="/administradores.c79c6f9d.css">
+
+</head>
+<body>
+
+ <!-- Contenedor de pagina -->
+ <div id="wrapper">
+
+    <!-- Barra lateral -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+        <!-- Barra lateral - Marca -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center">
+            <div class="sidebar-brand-icon rotate-n-15">
+                <i class="fas fa-laugh-wink"></i>
+            </div>
+            <div class="sidebar-brand-text mx-3">Permisos PC<sup> FWD</sup></div>
+        </a>
+        <!-- Separador -->
+        <hr class="sidebar-divider my-0">
+
+        <!-- Elemento de navegación - Panel de control -->
+        <li class="nav-item active">
+            <a class="nav-link">
+                <i class=""></i>
+                <span></span></a>
+        </li>
+
+    </ul>
+    <!-- Fin de la barra lateral -->
+
+
+
+    <!-- Envoltorio de contenido -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+        <!-- Barra superior -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+        </nav>
+        <!-- Fin de barra superior -->
+        
+        <!-- Contenido de la página de portada-->
+        <div class="container-fluid">
+        <!-- Fila de contenido -->
+        <div class="row">
+
+
+
+
+<!-- Contenido principal -->
+ <div id="content">
+    <h1 class="titulo">Seleccione su perfil de usuario</h1>
+    
+    <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card card-margin estudiantes">
+                            <div class="card-header no-border">
+                                <h5 class="card-title">Estudiantes</h5>
+                            </div>
+                            <div class="card-body pt-0">
+                                <div class="widget-49">
+                                    <div class="widget-49-title-wrapper">
+                                        <div class="widget-49-date-primary">
+                                            <i class="fas fa-graduation-cap"></i>
+                                            <span class="widget-49-date-day"></span>
+                                            <span class="widget-49-date-month"></span>
+                                        </div>
+                                        <div class="widget-49-meeting-info">
+                                            <button class="btnInicioEstudiantes">
+                                            <a href="/inicioSesionEstudiantes.html">iniciar</a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                        <div><span class="widget-49-meeting-time"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-margin administradores">
+                            <div class="card-header no-border">
+                                <h5 class="card-title">Administradores</h5>
+                            </div>
+                            <div class="card-body pt-0">
+                                <div class="widget-49">
+                                    <div class="widget-49-title-wrapper">
+                                        <div class="widget-49-date-success">
+                                            <i class="fas fa-users"></i>
+                                            <span class="widget-49-date-day"></span>
+                                            <span class="widget-49-date-month"></span>
+                                        </div>
+                                        <div class="widget-49-meeting-info">
+                                            <button class="btnInicioAdministradores">
+                                             <a href="/login.html">iniciar</a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="widget-49-meeting-action">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>   
+ <!-- fin de contenido principal --> 
+
+</div>
+<!-- fin del envoltorio de contenido -->
+
+</div></div></div><script src="/portada.bc4a6e91.js"></script></body></html>

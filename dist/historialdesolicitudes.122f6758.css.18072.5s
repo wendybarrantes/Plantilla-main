@@ -1,0 +1,16 @@
+.tablero {
+  width: 70%;
+  margin-top: 10vh;
+  position: absolute;
+  top: 2%;
+  left: 20%;
+}
+
+.tituloTablero {
+  color: #36b9cc;
+}
+
+.historial {
+  color: #8a2be2;
+}
+/*# sourceMappingURL=historialdesolicitudes.122f6758.css.map */

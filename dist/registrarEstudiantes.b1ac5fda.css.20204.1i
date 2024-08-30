@@ -1,0 +1,29 @@
+.card {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+}
+
+.contenedor {
+  position: relative;
+  left: 80px;
+  right: 50px;
+}
+
+.usuario {
+  position: relative;
+  left: 50%;
+}
+
+.titulo {
+  position: relative;
+  top: -40px;
+  left: 50%;
+}
+
+.btn {
+  background-color: #1cc88a;
+  border-color: #1cc88a;
+}
+/*# sourceMappingURL=registrarEstudiantes.b1ac5fda.css.map */
