@@ -27,7 +27,8 @@
       "nombre": "Ana",
       "apellido": "Sandi",
       "clave": "1234",
-      "numid": "1-05"
+      "numid": "1-05",
+      "id": "4693"
     },
     {
       "id": "e4ff",
@@ -35,6 +36,24 @@
       "apellido": "Barrantes",
       "clave": "000",
       "numid": "01"
+    }
+  ],
+  "solicitudes": [
+    {
+      "Nombre": "Ana",
+      "codigoPC": "1234",
+      "sede": "Santa Ana",
+      "fecha_salida": "29-08-2024",
+      "fecha_entrada": "30-08-2024",
+      "id": "e198"
+    },
+    {
+      "id": "46cb",
+      "Nombre": "Wendy Barrantes",
+      "codigoPC": "12345",
+      "sede": "santa Ana ",
+      "fecha_salida": "29/08/24",
+      "fecha_entrada": "30/08/24"
     }
   ]
 }

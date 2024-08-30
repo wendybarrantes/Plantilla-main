@@ -68,36 +68,35 @@
             <div class="form-row">
               <div class="col-md-4 mb-3">
                 <label for="validationServer01">Nombre completo</label>
-                <input type="text" class="form-control" id="validationServer01" required>
+                <input type="text" class="form-control" id="nombre" required>
                 
               </div>
               <div class="col-md-2 mb-3">
                 <label for="validationServer02">Código de Pc</label>
-                <input type="text" class="form-control" id="validationServer02" required>
+                <input type="text" class="form-control" id="codigo" required>
               </div>
               
             </div>
             <div class="form-row">
               <div class="col-md-3 mb-3">
                 <label for="validationServer03">Sede</label>
-                <input type="text" class="form-control" id="validationServer03" required>
+                <input type="text" class="form-control" id="sede" required>
                
               </div>
               <div class="col-md-3 mb-3">
                 <label for="validationServer04">Fecha de salida</label>
-                <input type="text" class="form-control" id="validationServer04" required>
+                <input type="text" class="form-control" id="fecha_salida" required>
                 
               </div>
               <div class="col-md-3 mb-3">
                 <label for="validationServer05">Fecha de Entrada</label>
-                <input type="text" class="form-control" id="validationServer05" required>
-                
+                <input type="text" class="form-control" id="fecha_entrada" required>
               </div>
             </div>
              
             <div class="form-group">
               <div class="form-check">
-                <input class="form-check-input is-valid" type="checkbox" value="" id="invalidCheck3" required>
+                <input class="form-check-input is-valid" type="checkbox" value="" id="terminos" required>
                 <label class="form-check-label" for="invalidCheck3">
                   Acepto los términos y condiciones.
                 </label>
@@ -106,7 +105,7 @@
                 </div>
               </div>
             </div>
-            <button class="btn btn-primary" type="submit">Enviar formulario</button>
+            <button class="btn btn-primary" type="button" id="btnEnviarFormulario">Enviar formulario</button>
           </form>    
                                     
             </div>
@@ -115,12 +114,6 @@
 
 </div>
 <!-- fin del envoltorio de contenido -->
-
-
-
-
-
-
-
+<script src="/src/js/formulario.js" type="module"></script>
 </body>
 </html>
