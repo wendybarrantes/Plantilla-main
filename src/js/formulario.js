@@ -2,6 +2,15 @@ import {enviarDatos} from "../servicios/fetch"
 
 const btnAgregarPermisos = document.getElementById("btnEnviarFormulario")
 const casillaTerminos = document.getElementById("terminos")
+const condiciones = document.getElementById("condiciones")
+const lista = document.getElementById("lista")
+
+
+condiciones.addEventListener("click",()=>{
+    lista.style.display= "block"
+})
+
+
 async function agregarPermisos() {
     const nombre = document.getElementById("nombre")
     const codigo = document.getElementById("codigo")
@@ -26,7 +35,6 @@ async function agregarPermisos() {
         fecha_salida:fecha_salida.value,
         fecha_entrada:fecha_entrada.value
     }
-
     await enviarDatos("solicitudes",permiso)
 
     nombre.value = ""
