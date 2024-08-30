@@ -20,6 +20,13 @@
       "Apellido": "Romero",
       "Clave": "0000",
       "Sede": "Nosara"
+    },
+    {
+      "id": "ef4a",
+      "Nombre": "",
+      "Apellido": "",
+      "Clave": "",
+      "Sede": ""
     }
   ],
   "estudiantes": [
@@ -36,9 +43,48 @@
       "apellido": "Barrantes",
       "clave": "000",
       "numid": "01"
+    },
+    {
+      "id": "f4c7",
+      "nombre": "x",
+      "apellido": "x",
+      "clave": "x",
+      "numid": "x"
+    },
+    {
+      "id": "91c1",
+      "nombre": "x",
+      "apellido": "x",
+      "clave": "c",
+      "numid": "c"
     }
   ],
-  "solicitudes": [],
+  "solicitudes": [
+    {
+      "id": "4861",
+      "Nombre": "",
+      "codigoPC": "",
+      "sede": "",
+      "fecha_salida": "",
+      "fecha_entrada": ""
+    },
+    {
+      "id": "b562",
+      "Nombre": "x",
+      "codigoPC": "x",
+      "sede": "x",
+      "fecha_salida": "x",
+      "fecha_entrada": "x"
+    },
+    {
+      "id": "791f",
+      "Nombre": "w",
+      "codigoPC": "w",
+      "sede": "w",
+      "fecha_salida": "w",
+      "fecha_entrada": "w"
+    }
+  ],
   "historialSolicitudes": [
     {
       "Nombre": "Ana",

@@ -19,18 +19,18 @@ async function validarDatos(nombre,clave) {
 }
 
 async function ejecutarValidacion(){
-    let nombre = document.getElementById("nombre").value
-    let clave = document.getElementById("clave").value
+    let nombre = document.getElementById("nombre")
+    let clave = document.getElementById("clave")
     
-    let llamarDatos = await validarDatos(nombre,clave)
-    if (llamarDatos) {
+    let llamarDatos = await validarDatos(nombre.value,clave.value)
+    if (llamarDatos && nombre.value && clave.value) {
         localStorage.setItem("nombreUsuario",nombre)
         window.location.href="inicio.html"
     }
     else{
         let error = document.getElementById("error")
         error.style.display="block"
-        error.textContent="usuario incorrecto, llene los espacios"
+        error.textContent="usuario incorrecto O llene los espacios"
         
     }
 
