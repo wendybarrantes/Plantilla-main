@@ -317,3 +317,12 @@ body{
 .widget-49 .widget-49-meeting-action a {
   text-transform: uppercase;
 }
+
+.btnAceptar{
+  background-color: #b2e6d4;
+  color: #222;
+}
+.btnRechazar{
+  background-color: #ffc1c1;
+   color: #222; 
+}

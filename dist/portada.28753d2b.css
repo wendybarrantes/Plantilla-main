@@ -315,4 +315,14 @@ body {
 .widget-49 .widget-49-meeting-action a {
   text-transform: uppercase;
 }
+
+.btnAceptar {
+  color: #222;
+  background-color: #b2e6d4;
+}
+
+.btnRechazar {
+  color: #222;
+  background-color: #ffc1c1;
+}
 /*# sourceMappingURL=portada.28753d2b.css.map */

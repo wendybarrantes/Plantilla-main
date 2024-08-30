@@ -13,6 +13,16 @@ async function traerDatos(endpoint) {
 }
 export{traerDatos}
 
+async function traerCantDatos(endpoint) {
+  try {
+      let peticion = await fetch(`http://localhost:3001/${endpoint}`)
+      let cantDatos = await peticion.json()
+      return cantDatos.length 
+  } catch (error) {
+    console.log(error);
+  }
+}
+export {traerCantDatos}
 
 //post
 async function enviarDatos(endpoint,objeto) {
@@ -33,7 +43,22 @@ async function enviarDatos(endpoint,objeto) {
 }
 export{enviarDatos}
 
-//
+//delete
+async function eliminarSolicitud(endpoint,id) {
+try {
+    const peticion = await fetch(`http://localhost:3001/${endpoint}/${id}`,{
+      method:"DELETE",
+      headers: {
+        "Content-type": "application/json; charset=UTF-8"
+      },
+    })
+    const datos = await peticion.json()
+    console.log(datos);
+} catch (error) {
+  console.error(error);
+}
+}
+export {eliminarSolicitud}
 
 
 

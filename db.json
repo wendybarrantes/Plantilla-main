@@ -38,7 +38,8 @@
       "numid": "01"
     }
   ],
-  "solicitudes": [
+  "solicitudes": [],
+  "historialSolicitudes": [
     {
       "Nombre": "Ana",
       "codigoPC": "1234",
@@ -46,14 +47,6 @@
       "fecha_salida": "29-08-2024",
       "fecha_entrada": "30-08-2024",
       "id": "e198"
-    },
-    {
-      "id": "46cb",
-      "Nombre": "Wendy Barrantes",
-      "codigoPC": "12345",
-      "sede": "santa Ana ",
-      "fecha_salida": "29/08/24",
-      "fecha_entrada": "30/08/24"
     }
   ]
 }
