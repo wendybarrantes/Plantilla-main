@@ -38,8 +38,18 @@
       "numid": "01"
     }
   ],
-  "solicitudes": [],
-  "historialSolicitudes": [
+  "solicitudes": [
+    {
+      "id": "5be8",
+      "Nombre": "Rubi",
+      "codigoPC": "3333",
+      "sede": "puntarenas",
+      "fecha_salida": "29/08/24",
+      "fecha_entrada": "30/08/24"
+    }
+  ]
+  ,
+  "historialSolicitudes":[
     {
       "Nombre": "Ana",
       "codigoPC": "1234",
@@ -47,6 +57,6 @@
       "fecha_salida": "29-08-2024",
       "fecha_entrada": "30-08-2024",
       "id": "e198"
-    }
-  ]
+  }
+]
 }

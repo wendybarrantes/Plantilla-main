@@ -1,9 +1,16 @@
 import { traerCantDatos } from "../servicios/fetch";
 
-const num_solicitudes = document.getElementById("num_solicitudes")
+const numSolicitudes = document.getElementById("numSolicitudes")
 
-async function cargar_num_solicitudes() {
-    const cantidad_solicitudes = await traerCantDatos("solicitudes")
-    num_solicitudes.textContent = cantidad_solicitudes
+async function cargarNumSolicitudes() {
+    const cantidadSolicitudes = await traerCantDatos("solicitudes")
+    numSolicitudes.textContent = cantidadSolicitudes
 }
-cargar_num_solicitudes()
+function mostarNombreUsuario() {
+    const nombreMostrar = document.getElementById("nombreUsuario")
+
+    nombreMostrar.textContent = localStorage.getItem("nombreUsuario")
+}
+
+cargarNumSolicitudes()
+mostarNombreUsuario()

@@ -24,6 +24,7 @@ async function ejecutarValidacion(){
     
     let llamarDatos = await validarDatos(nombre,clave)
     if (llamarDatos) {
+        localStorage.setItem("nombreUsuario",nombre)
         window.location.href="inicio.html"
     }
     else{

@@ -599,8 +599,10 @@ async function ejecutarValidacion() {
     let nombre = document.getElementById("nombre").value;
     let clave = document.getElementById("clave").value;
     let llamarDatos = await validarDatos(nombre, clave);
-    if (llamarDatos) window.location.href = "inicio.html";
-    else {
+    if (llamarDatos) {
+        localStorage.setItem("nombreUsuario", nombre);
+        window.location.href = "inicio.html";
+    } else {
         let error = document.getElementById("error");
         error.style.display = "block";
         error.textContent = "usuario incorrecto, llene los espacios";
