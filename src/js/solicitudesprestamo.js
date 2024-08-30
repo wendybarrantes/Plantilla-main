@@ -42,11 +42,11 @@ async function cargarSolicitudes() {
 
         const dateDay = document.createElement("span");
         dateDay.classList.add("widget-49-date-day");
-        dateDay.textContent = dia
+        dateDay.textContent = dia //este contenido proviene de la fecha de salida que esta en la api.
 
         const dateMonth = document.createElement("span");
         dateMonth.classList.add("widget-49-date-month");
-        dateMonth.textContent = mes 
+        dateMonth.textContent = mes //este contenido proviene de la fecha de salida que esta en la api.
 
         const infoDiv = document.createElement("div");
         infoDiv.classList.add("widget-49-meeting-info");

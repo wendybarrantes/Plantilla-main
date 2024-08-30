@@ -608,7 +608,8 @@ btniniciarSesion.addEventListener("click", ejecutarValidacion);
 
 },{"../servicios/fetch":"aJdq8"}],"aJdq8":[function(require,module,exports) {
 /*creo una funcion para traer los enpoints(los datos de la api) y la exporto para poder
- modularizar. Uso el bloque tryCatch para prevenir errores*/ //get
+ modularizar. Uso el bloque tryCatch para prevenir errores*/ //  Doy como parametro endpoint para poder reutilizar la función con todos los endpoints
+//get
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "traerDatos", ()=>traerDatos);
@@ -625,6 +626,7 @@ async function traerDatos(endpoint) {
         console.log(error);
     }
 }
+//get
 async function traerCantDatos(endpoint) {
     try {
         let peticion = await fetch(`http://localhost:3001/${endpoint}`);
@@ -634,6 +636,7 @@ async function traerCantDatos(endpoint) {
         console.log(error);
     }
 }
+//get
 async function traerDatosDeUnPermiso(endpoint, id) {
     try {
         let peticion = await fetch(`http://localhost:3001/${endpoint}/${id}`);

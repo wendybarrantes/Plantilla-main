@@ -1,6 +1,9 @@
 /*creo una funcion para traer los enpoints(los datos de la api) y la exporto para poder
  modularizar. Uso el bloque tryCatch para prevenir errores*/
 
+
+//  Doy como parametro endpoint para poder reutilizar la función con todos los endpoints
+
  //get
 async function traerDatos(endpoint) {
   try {
@@ -13,7 +16,7 @@ async function traerDatos(endpoint) {
 }
 export{traerDatos}
 
-
+//get
 async function traerCantDatos(endpoint) {
   try {
       let peticion = await fetch(`http://localhost:3001/${endpoint}`)
@@ -25,7 +28,7 @@ async function traerCantDatos(endpoint) {
 }
 export {traerCantDatos}
 
-
+//get
 async function traerDatosDeUnPermiso(endpoint,id) {
   try {
       let peticion = await fetch(`http://localhost:3001/${endpoint}/${id}`)

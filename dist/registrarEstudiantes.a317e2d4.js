@@ -590,11 +590,24 @@ let nombre = document.getElementById("nombre");
 let apellido = document.getElementById("apellido");
 let clave = document.getElementById("clave");
 let btnRegistrarEst = document.getElementById("btnRegistrarEst");
+async function validarDatos(numid) {
+    let guardarDatos = await (0, _fetch.traerDatos)("estudiantes");
+    let validarUsuario = guardarDatos.find((usuario)=>usuario.numid === numid);
+    return validarUsuario;
+}
 async function crearLosEstudiantes() {
     let numid = document.getElementById("num-id");
     let nombre = document.getElementById("nombre");
     let apellido = document.getElementById("apellido");
     let clave = document.getElementById("clave");
+    const respuesta = await validarDatos(numid.value);
+    console.log(respuesta);
+    if (respuesta) {
+        const error = document.getElementById("error");
+        error.innerHTML = "El n\xfamero de identificaci\xf3n ya existe";
+        console.log(numid.value);
+        return;
+    }
     if (numid.value.trim() === "" || nombre.value.trim() === "" || apellido.value.trim() === "" || clave.value.trim() === "") {
         const error = document.getElementById("error");
         error.innerHTML = "Por favor llene todos los campos";
@@ -616,7 +629,8 @@ btnRegistrarEst.addEventListener("click", crearLosEstudiantes);
 
 },{"../servicios/fetch":"aJdq8"}],"aJdq8":[function(require,module,exports) {
 /*creo una funcion para traer los enpoints(los datos de la api) y la exporto para poder
- modularizar. Uso el bloque tryCatch para prevenir errores*/ //get
+ modularizar. Uso el bloque tryCatch para prevenir errores*/ //  Doy como parametro endpoint para poder reutilizar la función con todos los endpoints
+//get
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "traerDatos", ()=>traerDatos);
@@ -633,6 +647,7 @@ async function traerDatos(endpoint) {
         console.log(error);
     }
 }
+//get
 async function traerCantDatos(endpoint) {
     try {
         let peticion = await fetch(`http://localhost:3001/${endpoint}`);
@@ -642,6 +657,7 @@ async function traerCantDatos(endpoint) {
         console.log(error);
     }
 }
+//get
 async function traerDatosDeUnPermiso(endpoint, id) {
     try {
         let peticion = await fetch(`http://localhost:3001/${endpoint}/${id}`);

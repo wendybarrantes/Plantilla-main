@@ -1,4 +1,4 @@
-import { enviarDatos } from "../servicios/fetch"
+import { enviarDatos,traerDatos } from "../servicios/fetch"
 
 let numid = document.getElementById("num-id")
 let nombre = document.getElementById("nombre")
@@ -6,11 +6,30 @@ let apellido = document.getElementById("apellido")
 let clave = document.getElementById("clave")
 let btnRegistrarEst = document.getElementById("btnRegistrarEst")
 
+async function validarDatos(numid) {
+   
+    let guardarDatos = await traerDatos("estudiantes")
+    
+    let validarUsuario = guardarDatos.find(usuario=>
+        usuario.numid===numid 
+    )
+    return validarUsuario
+}
+
 async function crearLosEstudiantes() {
  let numid = document.getElementById("num-id")
 let nombre = document.getElementById("nombre")
 let apellido = document.getElementById("apellido")
 let clave = document.getElementById("clave")
+
+const respuesta = await validarDatos(numid.value)
+console.log(respuesta);
+if (respuesta) {
+    const error = document.getElementById("error")
+    error.innerHTML = "El número de identificación ya existe"
+    console.log(numid.value);
+    return
+}
 
 if(numid.value.trim() === "" || nombre.value.trim() === "" || apellido.value.trim() === "" || clave.value.trim() === ""){
     const error = document.getElementById("error")

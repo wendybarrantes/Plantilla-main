@@ -1,7 +1,17 @@
-import { enviarDatos } from "../servicios/fetch"
+import { enviarDatos,traerDatos } from "../servicios/fetch"
 
 
    
+async function validarDatos(nombre) {
+   
+    let guardarDatos = await traerDatos("administradores")
+    
+    let validarUsuario = guardarDatos.find(usuario=>
+        usuario.Nombre===nombre
+    )
+    return validarUsuario
+}
+
    //post
    let btnRegistrar = document.getElementById("btnRegistrar")
    async function crearAdministrador() {
@@ -9,6 +19,14 @@ import { enviarDatos } from "../servicios/fetch"
        let apellido = document.getElementById("apellido")
        let clave = document.getElementById("clave")
        let sede = document.getElementById("sede")
+
+
+    const respuesta = await validarDatos(nombre.value)
+    if (respuesta) {
+    const error = document.getElementById("error")
+    error.innerHTML = "El nombre ya existe"
+    return
+    }
 
         if(nombre.value.trim() == "" || apellido.value.trim() == "" || clave.value.trim() == "" || sede.value.trim() == ""){
             const error = document.getElementById("error")

@@ -27,6 +27,13 @@
       "Apellido": "",
       "Clave": "",
       "Sede": ""
+    },
+    {
+      "id": "c588",
+      "Nombre": "Wendyy",
+      "Apellido": "Romero",
+      "Clave": "3333",
+      "Sede": "X"
     }
   ],
   "estudiantes": [
@@ -57,6 +64,20 @@
       "apellido": "x",
       "clave": "c",
       "numid": "c"
+    },
+    {
+      "id": "74e5",
+      "nombre": "a",
+      "apellido": "b",
+      "clave": "c",
+      "numid": "22"
+    },
+    {
+      "id": "c26c",
+      "nombre": "gabriel",
+      "apellido": "Barrantes",
+      "clave": "000",
+      "numid": "29"
     }
   ],
   "solicitudes": [
