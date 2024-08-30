@@ -18,13 +18,13 @@ body {
 
 .card {
   -ms-box-shadow: 0px 0px 10px 0px #523f691a;
-  min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid #e6e4e9;
   border-radius: 8px;
   flex-direction: column;
+  min-width: 0;
   display: flex;
   position: relative;
   box-shadow: 0 0 10px #523f691a;
@@ -35,9 +35,9 @@ body {
 }
 
 .card .card-header {
-  min-height: 50px;
   background: none;
   align-items: center;
+  min-height: 50px;
   padding: 0 .9375rem;
   font-weight: 500;
   display: flex;
@@ -53,13 +53,13 @@ body {
 }
 
 .widget-49 .widget-49-title-wrapper .widget-49-date-primary {
-  width: 4rem;
-  height: 4rem;
   background-color: #edf1fc;
   border-radius: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 4rem;
+  height: 4rem;
   display: flex;
 }
 
@@ -78,13 +78,13 @@ body {
 }
 
 .widget-49 .widget-49-title-wrapper .widget-49-date-secondary {
-  width: 4rem;
-  height: 4rem;
   background-color: #fcfcfd;
   border-radius: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 4rem;
+  height: 4rem;
   display: flex;
 }
 
@@ -103,13 +103,13 @@ body {
 }
 
 .widget-49 .widget-49-title-wrapper .widget-49-date-success {
-  width: 4rem;
-  height: 4rem;
   background-color: #e8faf8;
   border-radius: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 4rem;
+  height: 4rem;
   display: flex;
 }
 
@@ -128,13 +128,13 @@ body {
 }
 
 .widget-49 .widget-49-title-wrapper .widget-49-date-info {
-  width: 4rem;
-  height: 4rem;
   background-color: #ebf7ff;
   border-radius: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 4rem;
+  height: 4rem;
   display: flex;
 }
 
@@ -153,13 +153,13 @@ body {
 }
 
 .widget-49 .widget-49-title-wrapper .widget-49-date-warning {
-  width: 4rem;
-  height: 4rem;
   background-color: #fffaf0;
   border-radius: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 4rem;
+  height: 4rem;
   display: flex;
 }
 
@@ -178,13 +178,13 @@ body {
 }
 
 .widget-49 .widget-49-title-wrapper .widget-49-date-danger {
-  width: 4rem;
-  height: 4rem;
   background-color: #feeeef;
   border-radius: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 4rem;
+  height: 4rem;
   display: flex;
 }
 
@@ -203,13 +203,13 @@ body {
 }
 
 .widget-49 .widget-49-title-wrapper .widget-49-date-light {
-  width: 4rem;
-  height: 4rem;
   background-color: #fefeff;
   border-radius: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 4rem;
+  height: 4rem;
   display: flex;
 }
 
@@ -228,13 +228,13 @@ body {
 }
 
 .widget-49 .widget-49-title-wrapper .widget-49-date-dark {
-  width: 4rem;
-  height: 4rem;
   background-color: #ebedee;
   border-radius: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 4rem;
+  height: 4rem;
   display: flex;
 }
 
@@ -253,13 +253,13 @@ body {
 }
 
 .widget-49 .widget-49-title-wrapper .widget-49-date-base {
-  width: 4rem;
-  height: 4rem;
   background-color: #f0fafb;
   border-radius: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 4rem;
+  height: 4rem;
   display: flex;
 }
 
@@ -315,5 +315,4 @@ body {
 .widget-49 .widget-49-meeting-action a {
   text-transform: uppercase;
 }
-
 /*# sourceMappingURL=portada.28753d2b.css.map */
