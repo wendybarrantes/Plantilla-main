@@ -612,6 +612,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "traerDatos", ()=>traerDatos);
 parcelHelpers.export(exports, "traerCantDatos", ()=>traerCantDatos);
+parcelHelpers.export(exports, "traerDatosDeUnPermiso", ()=>traerDatosDeUnPermiso);
 parcelHelpers.export(exports, "enviarDatos", ()=>enviarDatos);
 parcelHelpers.export(exports, "eliminarSolicitud", ()=>eliminarSolicitud);
 async function traerDatos(endpoint) {
@@ -628,6 +629,15 @@ async function traerCantDatos(endpoint) {
         let peticion = await fetch(`http://localhost:3001/${endpoint}`);
         let cantDatos = await peticion.json();
         return cantDatos.length;
+    } catch (error) {
+        console.log(error);
+    }
+}
+async function traerDatosDeUnPermiso(endpoint, id) {
+    try {
+        let peticion = await fetch(`http://localhost:3001/${endpoint}/${id}`);
+        let guardarDatos = await peticion.json();
+        return guardarDatos;
     } catch (error) {
         console.log(error);
     }

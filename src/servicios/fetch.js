@@ -24,6 +24,17 @@ async function traerCantDatos(endpoint) {
 }
 export {traerCantDatos}
 
+async function traerDatosDeUnPermiso(endpoint,id) {
+  try {
+      let peticion = await fetch(`http://localhost:3001/${endpoint}/${id}`)
+      let guardarDatos = await peticion.json()
+      return guardarDatos 
+  } catch (error) {
+    console.log(error);
+  }
+}
+export {traerDatosDeUnPermiso}
+
 //post
 async function enviarDatos(endpoint,objeto) {
   try {

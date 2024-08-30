@@ -1,4 +1,4 @@
-import { traerDatos,eliminarSolicitud } from "../servicios/fetch";
+import { traerDatos,eliminarSolicitud,enviarDatos,traerDatosDeUnPermiso } from "../servicios/fetch";
 const contenedor = document.getElementById("contenedor");
 
 async function cargarSolicitudes() {
@@ -62,6 +62,24 @@ async function cargarSolicitudes() {
         btnAceptar.classList.add("btn", "btnAceptar");
         btnAceptar.textContent = "Aceptar";
         
+        btnAceptar.addEventListener("click",async()=>{
+          const infoSolicitud = await traerDatosDeUnPermiso("solicitudes",solicitud.id)  
+          
+          const historial = {
+            Nombre: infoSolicitud.Nombre,
+            codigoPC: infoSolicitud.codigoPC,
+            sede: infoSolicitud.sede,
+            fecha_salida: infoSolicitud.fecha_salida,
+            fecha_entrada: infoSolicitud.fecha_entrada
+          }
+
+          await enviarDatos("historialSolicitudes",historial)
+
+          await eliminarSolicitud("solicitudes",solicitud.id)
+
+          cargarSolicitudes()
+        })
+
         const btnRechazar = document.createElement("button");
         btnRechazar.classList.add("btn", "btnRechazar");
         btnRechazar.textContent = "Rechazar"; 
