@@ -1,6 +1,9 @@
 import { traerDatos,eliminarSolicitud,enviarDatos,traerDatosDeUnPermiso } from "../servicios/fetch";
 const contenedor = document.getElementById("contenedor");
 
+
+// Uso el forEach para recorrer las propiedades de la API y por cada uno de los datos 
+// crear la estructura de etiquetas
 async function cargarSolicitudes() {
     const solicitudes = await traerDatos("solicitudes");
 
@@ -62,6 +65,10 @@ async function cargarSolicitudes() {
         btnAceptar.classList.add("btn", "btnAceptar");
         btnAceptar.textContent = "Aceptar";
         
+
+        // En lugar de usar el PUT, lo que uso es un método GET para traer los datos de esa solicitud
+        // Y luego con el post enviarlo al endpoint historial solicitudes.
+        // Por ultimo elimino la solicitud
         btnAceptar.addEventListener("click",async()=>{
           const infoSolicitud = await traerDatosDeUnPermiso("solicitudes",solicitud.id)  
           

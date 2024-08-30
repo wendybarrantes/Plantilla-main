@@ -82,14 +82,6 @@
   ],
   "solicitudes": [
     {
-      "id": "c2f1",
-      "Nombre": "Tatiana",
-      "codigoPC": "555",
-      "sede": "Puntarenas",
-      "fecha_salida": "10/02/24",
-      "fecha_entrada": "12-02-24"
-    },
-    {
       "id": "c6d0",
       "Nombre": "José Miguel Rodríguez",
       "codigoPC": "577",
@@ -106,6 +98,14 @@
       "fecha_salida": "29-08-2024",
       "fecha_entrada": "30-08-2024",
       "id": "e198"
+    },
+    {
+      "id": "8d05",
+      "Nombre": "Tatiana",
+      "codigoPC": "555",
+      "sede": "Puntarenas",
+      "fecha_salida": "10/02/24",
+      "fecha_entrada": "12-02-24"
     }
   ]
 }
