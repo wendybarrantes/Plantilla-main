@@ -1,0 +1,9 @@
+.tarjetas{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tarjeta{
+    width: 500vh;
+}

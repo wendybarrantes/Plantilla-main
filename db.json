@@ -1,3 +1,98 @@
 {
-  "users": []
+  "administradores": [
+    {
+      "Nombre": "Wendy",
+      "Apellido": "Barrantes",
+      "Clave": "1234",
+      "Sede": "Santa Ana",
+      "id": "0"
+    },
+    {
+      "id": "989e",
+      "Nombre": "Roberto",
+      "Apellido": "Alpizar",
+      "Clave": "0000",
+      "Sede": "Puntarenas"
+    },
+    {
+      "id": "cbdc",
+      "Nombre": "Tatiana",
+      "Apellido": "Romero",
+      "Clave": "0000",
+      "Sede": "Nosara"
+    },
+    {
+      "id": "ef4a",
+      "Nombre": "",
+      "Apellido": "",
+      "Clave": "",
+      "Sede": ""
+    }
+  ],
+  "estudiantes": [
+    {
+      "nombre": "Ana",
+      "apellido": "Sandi",
+      "clave": "1234",
+      "numid": "1-05",
+      "id": "4693"
+    },
+    {
+      "id": "e4ff",
+      "nombre": "gabriel",
+      "apellido": "Barrantes",
+      "clave": "000",
+      "numid": "01"
+    },
+    {
+      "id": "f4c7",
+      "nombre": "x",
+      "apellido": "x",
+      "clave": "x",
+      "numid": "x"
+    },
+    {
+      "id": "91c1",
+      "nombre": "x",
+      "apellido": "x",
+      "clave": "c",
+      "numid": "c"
+    }
+  ],
+  "solicitudes": [
+    {
+      "id": "4861",
+      "Nombre": "",
+      "codigoPC": "",
+      "sede": "",
+      "fecha_salida": "",
+      "fecha_entrada": ""
+    },
+    {
+      "id": "b562",
+      "Nombre": "x",
+      "codigoPC": "x",
+      "sede": "x",
+      "fecha_salida": "x",
+      "fecha_entrada": "x"
+    },
+    {
+      "id": "791f",
+      "Nombre": "w",
+      "codigoPC": "w",
+      "sede": "w",
+      "fecha_salida": "w",
+      "fecha_entrada": "w"
+    }
+  ],
+  "historialSolicitudes": [
+    {
+      "Nombre": "Ana",
+      "codigoPC": "1234",
+      "sede": "Santa Ana",
+      "fecha_salida": "29-08-2024",
+      "fecha_entrada": "30-08-2024",
+      "id": "e198"
+    }
+  ]
 }

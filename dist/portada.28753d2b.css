@@ -1,0 +1,328 @@
+body {
+  background: #f4f7fd;
+  margin-top: 20px;
+}
+
+.btnSolicitudes {
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10%;
+  margin-left: 43%;
+  display: flex;
+  position: relative;
+}
+
+.card-margin {
+  margin-bottom: 1.875rem;
+}
+
+.card {
+  -ms-box-shadow: 0px 0px 10px 0px #523f691a;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e6e4e9;
+  border-radius: 8px;
+  flex-direction: column;
+  min-width: 0;
+  display: flex;
+  position: relative;
+  box-shadow: 0 0 10px #523f691a;
+}
+
+.card .card-header.no-border {
+  border: 0;
+}
+
+.card .card-header {
+  background: none;
+  align-items: center;
+  min-height: 50px;
+  padding: 0 .9375rem;
+  font-weight: 500;
+  display: flex;
+}
+
+.card-header:first-child {
+  border-radius: 7px 7px 0 0;
+}
+
+.widget-49 .widget-49-title-wrapper {
+  align-items: center;
+  display: flex;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-primary {
+  background-color: #edf1fc;
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-primary .widget-49-date-day {
+  color: #4e73e5;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-primary .widget-49-date-month {
+  color: #4e73e5;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-secondary {
+  background-color: #fcfcfd;
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-secondary .widget-49-date-day {
+  color: #dde1e9;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-secondary .widget-49-date-month {
+  color: #dde1e9;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-success {
+  background-color: #e8faf8;
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-success .widget-49-date-day {
+  color: #17d1bd;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-success .widget-49-date-month {
+  color: #17d1bd;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-info {
+  background-color: #ebf7ff;
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-info .widget-49-date-day {
+  color: #36afff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-info .widget-49-date-month {
+  color: #36afff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-warning {
+  background-color: #fffaf0;
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-warning .widget-49-date-day {
+  color: #ffc868;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-warning .widget-49-date-month {
+  color: #ffc868;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-danger {
+  background-color: #feeeef;
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-danger .widget-49-date-day {
+  color: #f95062;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-danger .widget-49-date-month {
+  color: #f95062;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-light {
+  background-color: #fefeff;
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-light .widget-49-date-day {
+  color: #f7f9fa;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-light .widget-49-date-month {
+  color: #f7f9fa;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-dark {
+  background-color: #ebedee;
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-dark .widget-49-date-day {
+  color: #394856;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-dark .widget-49-date-month {
+  color: #394856;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-base {
+  background-color: #f0fafb;
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-base .widget-49-date-day {
+  color: #68cbd7;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-base .widget-49-date-month {
+  color: #68cbd7;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-meeting-info {
+  flex-direction: column;
+  margin-left: 1rem;
+  display: flex;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-meeting-info .widget-49-pro-title {
+  color: #3c4142;
+  font-size: 14px;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-meeting-info .widget-49-meeting-time {
+  color: #b1bac5;
+  font-size: 13px;
+}
+
+.widget-49 .widget-49-meeting-points {
+  margin-top: .5rem;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.widget-49 .widget-49-meeting-points .widget-49-meeting-item {
+  color: #727686;
+  display: list-item;
+}
+
+.widget-49 .widget-49-meeting-points .widget-49-meeting-item span {
+  margin-left: .5rem;
+}
+
+.widget-49 .widget-49-meeting-action {
+  text-align: right;
+}
+
+.widget-49 .widget-49-meeting-action a {
+  text-transform: uppercase;
+}
+
+.btnAceptar {
+  color: #222;
+  background-color: #b2e6d4;
+}
+
+.btnRechazar {
+  color: #222;
+  background-color: #ffc1c1;
+}
+/*# sourceMappingURL=portada.28753d2b.css.map */

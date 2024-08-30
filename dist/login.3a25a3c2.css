@@ -1,0 +1,10 @@
+.contenedorPrincipal {
+  position: relative;
+  top: 90px;
+}
+
+.contenedor, .titulo, .cuenta {
+  position: relative;
+  left: 70%;
+}
+/*# sourceMappingURL=login.3a25a3c2.css.map */
