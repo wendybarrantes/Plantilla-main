@@ -13,6 +13,7 @@ async function traerDatos(endpoint) {
 }
 export{traerDatos}
 
+
 async function traerCantDatos(endpoint) {
   try {
       let peticion = await fetch(`http://localhost:3001/${endpoint}`)
@@ -23,6 +24,7 @@ async function traerCantDatos(endpoint) {
   }
 }
 export {traerCantDatos}
+
 
 async function traerDatosDeUnPermiso(endpoint,id) {
   try {

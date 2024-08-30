@@ -621,6 +621,7 @@ async function agregarPermisos() {
     sede.value = "";
     fecha_salida.value = "";
     fecha_entrada.value = "";
+    window.location.href = "portada.html";
 }
 btnAgregarPermisos.addEventListener("click", agregarPermisos);
 

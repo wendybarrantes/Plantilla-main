@@ -600,7 +600,7 @@ async function ejecutarValidacion() {
     let clave = document.getElementById("clave");
     let llamarDatos = await validarDatos(nombre.value, clave.value);
     if (llamarDatos && nombre.value && clave.value) {
-        localStorage.setItem("nombreUsuario", nombre);
+        localStorage.setItem("nombreUsuario", nombre.value);
         window.location.href = "inicio.html";
     } else {
         let error = document.getElementById("error");

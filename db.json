@@ -61,28 +61,20 @@
   ],
   "solicitudes": [
     {
-      "id": "4861",
-      "Nombre": "",
-      "codigoPC": "",
-      "sede": "",
-      "fecha_salida": "",
-      "fecha_entrada": ""
+      "id": "c2f1",
+      "Nombre": "Tatiana",
+      "codigoPC": "555",
+      "sede": "Puntarenas",
+      "fecha_salida": "10/02/24",
+      "fecha_entrada": "12-02-24"
     },
     {
-      "id": "b562",
-      "Nombre": "x",
-      "codigoPC": "x",
-      "sede": "x",
-      "fecha_salida": "x",
-      "fecha_entrada": "x"
-    },
-    {
-      "id": "791f",
-      "Nombre": "w",
-      "codigoPC": "w",
-      "sede": "w",
-      "fecha_salida": "w",
-      "fecha_entrada": "w"
+      "id": "c6d0",
+      "Nombre": "José Miguel Rodríguez",
+      "codigoPC": "577",
+      "sede": "Puntarenas",
+      "fecha_salida": "10/02/24",
+      "fecha_entrada": "12-02-24"
     }
   ],
   "historialSolicitudes": [

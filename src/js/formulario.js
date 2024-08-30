@@ -10,7 +10,6 @@ condiciones.addEventListener("click",()=>{
     lista.style.display= "block"
 })
 
-
 async function agregarPermisos() {
     const nombre = document.getElementById("nombre")
     const codigo = document.getElementById("codigo")
@@ -42,5 +41,7 @@ async function agregarPermisos() {
     sede.value = ""
     fecha_salida.value = ""
     fecha_entrada.value = ""
+    window.location.href="portada.html"
+
 }
 btnAgregarPermisos.addEventListener("click",agregarPermisos)
